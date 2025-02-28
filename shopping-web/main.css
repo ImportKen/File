@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.Top-bar {
+    height: 60px;
+    background-color: orange;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    outline: 1px solid red;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+
+    & .menu, .account-menu {
+        display: flex;
+
+        & li {
+            margin: 0 1rem;
+        }
+    }
+}
+
+li a {
+    text-decoration: none;
+}
